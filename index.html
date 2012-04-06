@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1;">
+    <meta charset="UTF-8">
+    <meta name="Author" content="Handaoliang">
+    <meta name="robots" content="index, follow">
+    <meta name="Keywords" content="html5, image crop, Ajax uploader">
+    <meta name="Description" content="HTML5 image crop">
+    <title>HTML5 image cropper</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ComnovoUtil.js"></script>
+    <script type="text/javascript" src="js/ImageCropper.js"></script>
+    <script type="text/javascript" src="js/UploadImages.js"></script>
+</head>
+<body>
+<div id="copper_container">
+    <a id="back_btn"></a>
+    <a id="rotate_btn"></a>
+    <div id="dragdrop_info">Drag and drop<br>your image here</div>
+    <div id="drag_drop_area"></div>
+    <div id="cropper_img_area_bg"></div>
+    <div id="status" style=""></div>
+    <a id="select_img_button" href="javascript:void(0);" onclick="document.getElementById('image_file').click();"></a>
+    <input type="file" id="image_file" size="10" style="visibility:hidden;" />
+
+    <canvas id="cropper_img_area"></canvas>
+    <div id="preview_container">
+        <canvas id="preview_100_px"></canvas>
+        <span>Big Image<br /> 100px x 100px</span>
+
+        <canvas id="preview_50_px"></canvas>
+        <span>Small Image 50x50</span>
+
+        <a id="save_img_button"></a>
+    </div>
+</div>
+<img id="upload_success_preview_big" />
+<img id="upload_success_preview_small" />
+</body>
+</html>
