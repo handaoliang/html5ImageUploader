@@ -7,6 +7,10 @@ About
 Created by [Daoliang Han](htt://www.handaoliang.com) (c) 2012
 
 html5ImageUploader is open sourced under <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GPL 2</a> or later and <a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU LGPL 2</a> or later.
+
+This distribution also includes jQuery JavaScript Library
+http://jquery.com/ Copyright 2010, John Resig Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license
+
 If this license doesn't suit you mail me at handaoliang (at) gmail.com.
 
 -------

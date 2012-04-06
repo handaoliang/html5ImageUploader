@@ -1,3 +1,8 @@
+/**
+ * https://github.com/handaoliang/html5ImageUploader
+ * Licensed under GNU GPL 2 or later and GNU LGPL 2 or later.
+ */
+
 var comnovo = {
     version:"0.1",
     Browser: (function(){
