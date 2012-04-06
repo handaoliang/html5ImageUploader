@@ -1,6 +1,6 @@
 html5ImageUploader
 ==========
-Copper and upload an images using HTML5 Cover
+Cropper and upload an images using HTML5 Cover
 
 Created by [Daoliang Han](htt://www.handaoliang.com) (c) 2012 All Rights Reverved.
 
