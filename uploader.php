@@ -1,4 +1,9 @@
 <?php
+/**
+ * https://github.com/handaoliang/html5ImageUploader
+ * Licensed under GNU GPL 2 or later and GNU LGPL 2 or later.
+ */
+
 class html5ImageUploader {
 
     public function doUploadImages(){
