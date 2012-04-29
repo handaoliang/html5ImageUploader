@@ -82,7 +82,7 @@
         //If safari...
         if(typeof FileReader == "undefined"){
             if(!this.isImage(file)) return;
-            odof.user.uploadAvatar.ajaxUploadFile(file);
+            //uploadAvatar.ajaxUploadFile(file);
         }else{//Firefox 3.6+ and chrome
             if(!this.isImage(file)) return;
             var reader = new FileReader();
